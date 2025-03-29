@@ -1,12 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
+// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Back/', // Replace with your GitHub repo name
   plugins: [react()],
-  base: '/Back/', // Correct for GitHub Pages deployment
-  build: {
-    outDir: 'dist', // Ensure output goes to 'dist' folder
-  },
   optimizeDeps: {
     exclude: ['lucide-react'],
   },

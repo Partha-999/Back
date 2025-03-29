@@ -7,27 +7,27 @@ function App() {
   const memories = [
     {
       date: 'March 21, 2025',
-      image: '/images/1.jpg',
+      image: '/Back/images/1.jpg',
       caption: 'Our cafe date ☕️'
     },
     {
       date: 'March 22, 2025',
-      image: '/images/2.jpg',
+      image:  '/Back/images/2.jpg',
       caption: 'Your Pizza with extra cheese 🍕'
     },
     {
       date: 'March 23, 2025',
-      image: '/images/3.jpg',
+      image: '/Back/images/3.jpg',
       caption: 'Happy us after wakeup ❤️'
     },
     {
       date: 'March 23, 2025',
-      image: '/images/4.jpg',
+      image: '/Back/images/4.jpg',
       caption: 'Nuv ichina shirtt 👕'
     },
     {
       date: 'March 13, 2025',
-      image: '/images/5.jpg',
+      image: '/Back/images/5.jpg',
       caption: 'Our calls reduces the distance 🤳'
     }
   ];
